@@ -7,7 +7,7 @@ threshold analysis.
 
 ---
 
-## 📌 Project Objectives
+## Project Objectives
 
 - Build a reliable baseline classifier for breast cancer detection
 - Compare multiple machine learning models under identical conditions
@@ -16,7 +16,7 @@ threshold analysis.
 
 ---
 
-## 🧠 Models Used
+## Models Used
 
 The following models were implemented and compared:
 
@@ -29,7 +29,7 @@ proper preprocessing and to prevent data leakage.
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 - **Source:** Wisconsin Breast Cancer Dataset (via `sklearn.datasets`)
 - **Samples:** 569
@@ -42,7 +42,7 @@ The dataset was split into training and test sets using stratified sampling.
 
 ---
 
-## ⚙️ Preprocessing
+## Preprocessing
 
 - Feature scaling performed using **StandardScaler**
 - Scaling applied only to training data via Pipelines
@@ -50,7 +50,7 @@ The dataset was split into training and test sets using stratified sampling.
 
 ---
 
-## 📈 Evaluation Metrics
+## Evaluation Metrics
 
 Models were evaluated using:
 
@@ -66,7 +66,7 @@ are particularly costly in medical screening scenarios.
 
 ---
 
-## 🔎 Decision Threshold Analysis
+## Decision Threshold Analysis
 
 Instead of relying solely on the default probability threshold (0.5), the project explores
 how changing the decision threshold affects recall and precision. Lower thresholds were
@@ -76,7 +76,7 @@ ROC and Precision–Recall curves were used to visualize model performance acros
 
 ---
 
-## 📋 Model Comparison Summary
+## Model Comparison Summary
 
 Multiple classifiers were evaluated under the same train–test split and metrics.
 Results show that while more complex models achieve comparable performance, Logistic Regression
@@ -87,7 +87,7 @@ medical decision-support systems.
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - Python
 - NumPy
@@ -98,7 +98,7 @@ medical decision-support systems.
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 1. Clone the repository
 2. Create and activate a virtual environment
